@@ -49,7 +49,6 @@ int EngMenu()
 
     printf("\e[1;1H\e[2J");
     printf("Hi!\n");
-    system("hostname");
     printf("\nWelcome to Guess that Dice! Game :U\n");
     printf("In this game, you have to guess the numbers from the dice that has been rolled\n");
     printf("Ranging from 1-6\n");
@@ -97,7 +96,6 @@ int IndoMenu()
 
     printf("\e[1;1H\e[2J");
     printf("Hai!\n");
-    system("hostname");
     printf("Selamat datang di game Tebak Dadu itu! :U\n");
     printf("Jadi pada game ini, Anda harus menebak angka-angka dari dadu-dadu yang sudah dilempar\n");
     printf("Dari angka 1 sampai 6\n");
